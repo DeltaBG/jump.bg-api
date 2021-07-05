@@ -19,37 +19,67 @@ Along with the authentication, you have to send **type, action and additional pa
 
 - domain
 - - request 
+
 **Valid only for .BG domains**. Before registering a .BG domain, you must have a valid and processed request. Additional parameters:
+
 -- **domain** (name of the .bg domain)
+
 -- **registrant** (id of the contact details for the request. Must be predefined with the reseller registration)
+
 -- **transfer**  (true / false if its a transfer request from another registrar)
+
 -  - register
+
 Registration request, if the registration completes, it will create an order with your jump.bg account along with invoice and it will use your account balance to pay the invoice. The registration should complete automatically unless something goes wrong. Additional parameters:
+
 -- **domain** (name of the domain)
+
 -- **reg_period** (Period for the domain to be register in years)
+
 - - transfer
+
 Transfer request, if the transfer completes  it will create an order with your jump.bg account along with invoice and it will use your account balance to pay the invoice. The transfer should complete automatically unless something goes wrong. Additional parameters:
+
 -- **domain** (name of the domain)
+
 -- **epp** (Epp code or transfer key if the domain supports such)
+
 -  - renew
+
 Renewing the domain. Can be renewed at any point. It will throw an error if the domain is already being invoiced in your Jump.BG profile. You have to pay the already generated invoice. If the domain is invoiced with other domains / services, **contact us** and we will split the invoice. Additional parameters:
+
 -- **domainid** (Id of the domain. Can be obtained thru the list action)
+
 -- **renew_period** (Period for the domain to be renewed in years)
+
 - - setns
+
 Set nameservers to already active domain. Additional parameters:
+
 -- **domainid** (Id of the domain. Can be obtained thru the list action)
+
 -- **ns1** (Nameserver #1, **REQUIRED**)
+
 -- **ns2** (Nameserver #2, **REQUIRED**)
+
 -- **ns3** (Nameserver #3)
+
 -- **ns4** (Nameserver #4)
+
 -- **ns5** (Nameserver #5)
+
 - - list
+
 Lists all active domains. No additional parameters.
+
 - service
+
 **Still in development, check again later**
 - addon
+
 **Still in development, check again later**
 - balance
+
 Shows the current account balance.
 
 ## PHP Example

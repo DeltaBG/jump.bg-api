@@ -68,6 +68,13 @@ Set nameservers to already active domain. Additional parameters:
 
 -- **ns5** (Nameserver #5)
 
+- - getns
+
+Get nameservers to already active domain. Additional parameters:
+
+-- **domainid** (Id of the domain. Can be obtained thru the list action)
+
+
 - - list
 
 Lists all active domains. No additional parameters.

@@ -83,7 +83,7 @@ Lists all active domains. No additional parameters.
 
 -- **todate** (To which date to display results - YYYY-MM-DD, **REQUIRED**)
 
--- **list** (How many entries to display, **REQUIRED**)
+-- **limit** (How many entries to display, **REQUIRED**)
 
 
 - service

@@ -79,6 +79,13 @@ Get nameservers to already active domain. Additional parameters:
 
 Lists all active domains. No additional parameters.
 
+-- **fromdate** (From which date to display results - YYYY-MM-DD, **REQUIRED**)
+
+-- **todate** (To which date to display results - YYYY-MM-DD, **REQUIRED**)
+
+-- **list** (How many entries to display, **REQUIRED**)
+
+
 - service
 
 **Still in development, check again later**

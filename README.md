@@ -36,6 +36,9 @@ Registration request, if the registration completes, it will create an order wit
 
 -- **reg_period** (Period for the domain to be register in years)
 
+-- **request_id** (Request ID, only required for .BG domains. Can be obtained thru list action)
+
+
 - - transfer
 
 Transfer request, if the transfer completes  it will create an order with your jump.bg account along with invoice and it will use your account balance to pay the invoice. The transfer should complete automatically unless something goes wrong. Additional parameters:
@@ -43,6 +46,8 @@ Transfer request, if the transfer completes  it will create an order with your j
 -- **domain** (name of the domain)
 
 -- **epp** (Epp code or transfer key if the domain supports such)
+
+-- **request_id** (Request ID, only required for .BG domains. Can be obtained thru list action)
 
 -  - renew
 

@@ -22,11 +22,9 @@ Along with the authentication, you have to send **type, action and additional pa
 
 **Valid only for .BG domains**. Before registering a .BG domain, you must have a valid and processed request. Additional parameters:
 
--- **domain** (name of the .bg domain)
+-- **domains** (supports multiple domains in the format domain1.bg,domain2.bg,domain3.bg . If you need to transfer some of the domains you can do pipeline symbol after the domain name. By default its 0, but you can set it to 1. As example - domain1.bg|1,domain2.bg,domain3.bg|1,domain4.bg)
 
 -- **registrant** (id of the contact details for the request. Must be predefined with the reseller registration)
-
--- **transfer**  (true / false if its a transfer request from another registrar)
 
 -  - register
 

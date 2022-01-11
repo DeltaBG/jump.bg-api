@@ -80,13 +80,15 @@ Get nameservers to already active domain. Additional parameters:
 
 - - list
 
-Lists all active domains. No additional parameters.
+Lists domains by different parameters.
 
--- **fromdate** (From which date to display results - YYYY-MM-DD, **REQUIRED**)
+-- **fromdate** (From which date to display results - YYYY-MM-DD, **REQUIRED WHEN NO DOMAIN IS ENTERED**)
 
--- **todate** (To which date to display results - YYYY-MM-DD, **REQUIRED**)
+-- **todate** (To which date to display results - YYYY-MM-DD, **REQUIRED WHEN NO DOMAIN IS ENTERED**)
 
 -- **limit** (How many entries to display, **REQUIRED**)
+
+-- **doomain** (Exact domain name, **REQUIRED WHEN NO FROMDATE AND TODATE IS ENTERED**)
 
 
 - service
